@@ -946,7 +946,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-offcanvas, .fh5co-nav-toggle, #fh5co-page {
-  position: none;
+  position: relative;
 }
 
 #fh5co-page {
@@ -969,7 +969,7 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   overflow-y: auto;
   position: fixed;
-  z-index: -20;
+  z-index: 1;
   top: 0;
   width: 275px;
   background: black;
@@ -977,7 +977,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-offcanvas {
-    display: none;
+    display: block;
   }
 }
 #fh5co-offcanvas ul {
